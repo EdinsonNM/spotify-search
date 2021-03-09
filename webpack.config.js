@@ -17,6 +17,7 @@ module.exports = (webpackConfigEnv, argv) => {
       },
     },
   })(defaultConfig, {
+    externals: [/^@ps\/.+/],
     // customize the webpack config here
     module: {
       rules: [

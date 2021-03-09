@@ -1,7 +1,12 @@
 {
   "extends": "ts-config-single-spa",
   "compilerOptions": {
-    "jsx": "react"
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
   },
   "include": ["src/**/*"],
   "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts"]

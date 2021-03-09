@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import React from "react";
 import ReactDOM from "react-dom";
 import singleSpaReact from "single-spa-react";
